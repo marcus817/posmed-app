@@ -9,7 +9,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="card" style="padding-right: 10px; padding-left: 10px">
-					<q-parallax src="https://static.sharecare.com/promo/avatars/physician_avatar.png" :height="150">
+					<q-parallax src="http://cdn2.hubspot.net/hub/441120/file-2752707415-jpg/blog-files/dra.-maria-isabel.jpg" :height="150">
 						<div slot="loading">Loading...</div>
 					</q-parallax>
 
@@ -19,12 +19,18 @@
 					</div>
 
 
-					<div class="card-title">
-						<p > - Pacientes</p>
-						<q-search v-model="searchModel"></q-search>
-					</div>
+					
 
 					<div class="list item-delimiter">
+						<div class="toolbar text-center">
+							<q-toolbar-title :padding="1">
+								Pacientes
+							</q-toolbar-title>
+						</div>
+						<br>	
+						<q-search v-model="searchModel"></q-search>
+						<br>	
+
 						<q-collapsible icon="face" label="Marcus Santos">
 							<div>
 								Milagre! Cura da visão. Aqui você não ganha mais $$$
@@ -43,11 +49,8 @@
 
 					</div>
 
-				
-					
-
 					<br>
-						<q-pagination v-model="page" :mim="1" :max="17"></q-pagination>
+					<q-pagination v-model="page" :mim="1" :max="17"></q-pagination>
 					
 
 				</div>
@@ -55,7 +58,7 @@
 					
 					<div class="card">
 						<div class="item two-lines">
-							<img class="item-primary" :src="'https://exelord.github.io/ember-initials/images/default-d5f51047d8bd6327ec4a74361a7aae7f.jpg'">
+							<img class="item-primary" :src="'https://instagram.frec3-2.fna.fbcdn.net/t51.2885-19/s320x320/13736795_834349220033285_699892460_a.jpg'">
 							<div class="item-content">
 								<div>Marcus Santos</div>
 								<div>Amil</div>
