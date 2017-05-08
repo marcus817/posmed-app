@@ -33,7 +33,7 @@
 
 						<q-collapsible icon="face" label="Marcus Santos">
 							<div>
-								Milagre! Cura da visão. Aqui você não ganha mais $$$
+								Milagre! Cura da visão. Aqui você não ganha mais
 							</div>
 						</q-collapsible>
 						<q-collapsible icon="face" label="Sostenes Freitas">
@@ -67,13 +67,15 @@
 
 						
 
-					
+							
 
 							 <q-collapsible icon="alarm_add" label="Metas">
 							
 
+							
+							 <div class="class" style="background-color: #ffffff">
 
-							<div class="list">
+							<div class="list" >
 								
 								<div class="list-label inset">Atividade Fisica</div>
 								<div class="item two-lines" v-for="n in 2">
@@ -85,7 +87,7 @@
 										<div>Dormir 8 Horas</div>
 										<div>todos os Dias</div>
 									</div>
-									<i class="item-secondary">delete_forever</i>
+										<div class="item-secondary item-link"><button>	<i class="">delete_forever</i> </button></div>
 								</div>
 								<hr class="inset">
 								<div class="list-label inset">Dieta</div>
@@ -98,7 +100,9 @@
 										<div>Adicionar ao almoço</div>
 										<div>Diaria</div>
 									</div>
-									<i class="item-secondary">delete_forever</i>
+									
+									<div class="item-secondary item-link"><button>	<i class="">delete_forever</i> </button></div>
+
 								</div>
 								<hr class="inset">
 							
@@ -113,7 +117,7 @@
 								</div>
 							</div>
 
-
+							</div>
 							</q-collapsible>
 						
 
@@ -135,7 +139,7 @@
 										<div>8 Horas em 8 H</div>
 										<div>5 Dias</div>
 									</div>
-									<i class="item-secondary">delete_forever</i>
+									<div class="item-secondary item-link"><button >	<i class="">delete_forever</i> </button></div>
 								</div>
 								
 								<br>
